@@ -1,4 +1,4 @@
-*PRIMERA PARTE*
+PRIMERA PARTE
 
 Para abordar esta tarea de scraping y extracción de un glosario en formato CSV desde el sitio web, se detalla paso a paso el proceso con todas las consideraciones técnicas. Trabajaremos con Python y la librería BeautifulSoup para extraer el contenido HTML, y utilizaremos Pandas para manipular los datos y generar el CSV.
 
@@ -16,11 +16,7 @@ Esto también incluye inspeccionar la estructura del HTML para identificar dónd
 
 *SEGUNDA PARTE*
 
-Configuracion del entorno:
 
-
-
-#Instalaremos las herramientas necesarias:
 !pip install requests
 !pip install beautifulsoup4
 !pip install pandas
@@ -32,9 +28,7 @@ BeautifulSoup4: Para procesar el HTML y extraer los datos.
 Pandas: Para almacenar los resultados en un CSV.
 
 
-*Tercera parte*
-
-Montamos nuestro código:
+Tercera parte
 
 import requests
 from bs4 import BeautifulSoup
